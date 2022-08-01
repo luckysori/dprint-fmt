@@ -34,8 +34,7 @@
 ;; Enable `dprint-fmt-on-save-mode' locally to your project with a
 ;; form in your .dir-locals.el like this:
 
-;;     ((nil
-;;       (mode . sqlformat-on-save)))
+;; ((prog-mode . ((eval . (dprint-fmt-on-save-mode)))))
 
 ;;; Code:
 
